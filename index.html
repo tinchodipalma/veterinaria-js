@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Veterinaria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body onload="startApp()">
+    <div class="header">
+      <h1>Veterinaria DWI</h1>
+    </div>
+
+    <main class="content">
+      <div class="form__container">
+        <form>
+          <div>
+            <label>Tipo:</label>
+            <select name="type">
+              <option value="p">Perro</option>
+              <option value="g">Gato</option>
+              <option value="c">Conejo</option>
+            </select>
+          </div>
+    
+          <div>
+            <label>Nombre:</label>
+            <input type="text" name="name" />
+          </div>
+    
+          <div>
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" name="birthdate" />
+          </div>
+    
+          <div>
+            <label>Color:</label>
+            <input type="text" name="color" />
+          </div>
+    
+          <div>
+            <label>Peso:</label>
+            <input type="text" name="weight" />
+          </div>
+    
+          <div>
+            <button type="submit">
+              Agregar Mascota
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="pets_container">
+        <ul>
+          
+        </ul>
+      </div>
+    </main>
+    
+
+  </body>
+</html>

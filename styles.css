@@ -1,0 +1,37 @@
+.header {
+  padding: 0 5%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.content {
+  margin: 30px auto;
+  padding: 0 5%;
+  display: grid;
+  grid: auto / 50% 50%;
+}
+
+.form__container {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  padding: 5px 0;
+  margin: 0 auto;
+  background: #FAFAFA;
+  border: 2px solid #AAA;
+}
+
+.form__container form div {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.form__container form div > * {
+  width: 50%;
+}
+
+.form__container form div:last-child button {
+  margin: 0 auto;
+}
